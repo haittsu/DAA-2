@@ -1,4 +1,4 @@
-# Assignment 2 — Individual Algorithm Analysis Report
+# Assignment 2
 
 ## 1. Overview
 
