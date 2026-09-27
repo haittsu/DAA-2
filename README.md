@@ -13,11 +13,14 @@
 Нужен установленный JDK с командами `javac` и `java` в `PATH`. Из корня репозитория:
 
 ```text
-javac src/Main.java src/DynamicArray.java src/LinkedList.java src/MinHeap.java
+javac src/Main.java src/DynamicArray.java src/LinkedList.java src/MinHeap.java src/Tests.java
 java -cp src Main
+java -cp src Tests
 ```
 
 Сторонние библиотеки не требуются. Пока `Main` только подтверждает запуск проекта; он не выполняет анализ и не создаёт результаты.
+
+`Tests` запускает проверки трёх структур без стороннего тестового фреймворка. Тесты сравнивают операции со стандартными коллекциями Java и проверяют свойство кучи после вставок и извлечений.
 
 ## Счётчики структур данных
 
